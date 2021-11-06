@@ -8,7 +8,7 @@ tf.setBackend('webgl');
 const threshold = 0.75;
 
 async function load_model() {
-    const model = await loadGraphModel("https://raw.githubusercontent.com/hugozanini/TFJS-object-detection/master/models/kangaroo-detector/model.json");
+    const model = await loadGraphModel("https://raw.githubusercontent.com/AzlinaZanariahMalik/FSL-Phrase-Detection/master/models/fsl-phrase-detector/model.json");
     return model;
   }
 
