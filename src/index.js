@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as tf from '@tensorflow/tfjs';
 import {loadGraphModel} from '@tensorflow/tfjs-converter';
-import "./styles.css";
+import "./index.css";
 tf.setBackend('webgl');
 
 const threshold = 0.75;
